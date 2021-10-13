@@ -1,0 +1,13 @@
+---
+title: "Project Proposal"
+author: "Connor Demorest"
+date: "10/23/2020"
+output: pdf_document
+---
+## Project Proposal!
+
+The project that I'm intending on doing is finding something interesting out of *Probability and Measure* by Billingsley that I could show to the class. I don't have a solid idea yet but I'm looking at chapter 1, section 7 about gambling systems. I haven't gotten that far in the book but I thought it might have some interesting real world examples, or would in the problems given after the section. 
+
+Another thing I was thinking I could do was looking at some sort of casino card game (i.e. blackjack, etc) and examine the expectation value of the return (spoiler: it's negative), especially for different payout schemes. For example, in blackjack, some places will pay 3:2 on a blackjack (any ace and any face card or 10), where others will pay 6:5, and see how the expected return changes. There's this website [wizardofodds.com](https://wizardofodds.com) that goes through a lot of those probability calculations. I could also look at simulating it with R, that could be pretty cool too. 
+
+A problem I see already with the second one is that there are decisions that have to be made when you play blackjack (hit or stay) that change depending on the card that the dealer is showing. Should I assume that a player plays perfectly? How do you even code that? Maybe that could be the project, basically deriving the optimal strategy or a "basic" strategy and seeing how those compare to the optimal way of playing. 
